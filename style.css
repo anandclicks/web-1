@@ -1,0 +1,311 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    scroll-behavior: none;
+    overflow-x: hidden;
+   
+}
+:root {
+    /* --peimary-color : #9c0585; */
+    --peimary-color : #4676DC;
+    --secondart-color :#fff;
+    --third-color : #000;
+    --bg-color : #a4a4a4;
+}
+span {
+    color: var(--peimary-color);
+}
+h1 {
+    font-size: 8vh;
+}
+h1, h2, h3, p {
+    font-family: poppins;
+}
+/* main page-start  */
+.main {
+    height: 12%;
+    top: 0;
+   
+}
+/* navbar stylig start  */
+#navbar {
+    height: 12vh;
+    background-color: var(--secondart-color);
+    border-bottom: 1px solid var(--bg-color);
+}
+.nav-left ,.nav-right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-right li a {
+    color: var(--third-color);
+}
+.menu-btn {
+    color: var(--peimary-color);
+}
+.slider {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: none;
+    transition: 0.3s ease-in-out;
+    position: absolute;
+    top: 12%;
+    opacity: 0;
+    z-index: 2;
+    padding: 30%;
+}
+
+.slider ul  {
+    flex-direction: column;
+    width: 40vh;
+}
+
+.menu-btn {
+    display: none;
+}
+/* page-1 styling start  */
+/* shape divider styling code  */
+.custom-shape-divider-bottom-1701581554 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1701581554 svg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 66px;
+}
+
+.custom-shape-divider-bottom-1701581554 .shape-fill {
+    fill: var(--peimary-color);
+}
+#page-1 {
+    height: 90vh;
+    position: relative;
+}
+.page-1-left , .page-1-right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-box {
+    height:  70%;
+    width: 100%;
+}
+.page-1-right {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/011/153/364/original/3d-website-developer-working-on-laptop-illustration-png.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.buttons .btn-1 {
+    font-size: 15px;
+    background-color: var(--peimary-color);
+    color: var(--secondart-color);
+}
+.buttons .btn-2  {
+    background-color: var(--bg-color);
+    color: rgb(255, 255, 255);
+}
+/********************************************** page-2-main  ******************************/
+.page-2-main {
+    height: 83vh;
+    position: relative;
+}
+/* shape divider  */
+.custom-shape-divider-top-1701581614 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1701581614 svg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 66px;
+}
+
+.custom-shape-divider-top-1701581614 .shape-fill {
+    fill: var(--peimary-color);
+}
+#page-2-row {
+    height: 100%;
+}
+#page-2-row .s-one {
+    height: 70%;
+    background-color: var(--secondart-color);
+    box-shadow: 0px 0px 10px var(--bg-color);
+    border-radius: 10px;
+}
+#page-2-row .s-two 
+{
+    height: 70%;
+    background-color: var(--secondart-color);
+    box-shadow: 0px 0px 10px var(--bg-color);
+    border-radius: 10px;
+}
+#page-2-row .s-three 
+{
+    height: 70%;
+    background-color: var(--secondart-color);
+    box-shadow: 0px 0px 10px var(--bg-color);
+    border-radius: 10px;
+}
+/* footer start  */
+.page-3 {
+    height: 40vh;
+}
+
+#footer-row {
+    border-top: 1px dotted var(--peimary-color);
+    height: 100%;
+}
+.f-left {
+    height: 100%;
+}
+.f-left {
+    height: 100%;
+}
+#footer-row i{
+    transition: 0.3s ease-in-out;
+    border: 1px solid var(--bg-color);
+    border-radius: 50%;
+}
+#footer-row i:hover {
+    background-color: var(--peimary-color);
+    color: var(--secondart-color);
+}
+/*************************** contact form styling  *******************************8*/
+.form {
+    height: 100%;
+    width: 100%;
+    background-color: #f1f1f19f;
+    position: absolute;
+    z-index: 10;  
+    display: none;
+}
+form i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 40px;
+    cursor: pointer;
+}
+#form-row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#form-row form {
+    height: 70%;
+    width: 25%;
+    background-color: #000;
+    color: var(--secondart-color);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* meida query start  */
+@media (max-width : 1025px) {
+    h1 {
+        font-size: 5vh;
+    }
+    ul li {
+        display:none;
+    }
+    ul li a {
+        color: var(--secondart-color);
+    }
+    .slider ul li {
+        display: block;
+        margin: 1.2vh 0vh;
+    }
+    .slider {
+        display: block;
+        
+    }
+    .menu-btn {
+        display: block;
+    }
+    /* page 1 styling start  */
+    #page-1 {
+        height: 115vh;
+    }
+    .page-1-left , .page-1-right {
+        align-items: start;
+        height: 50%;
+    }
+    /* page-2 styling start  */
+    #page-2-row {
+        height: 200%;
+    }
+    #page-2-row .col-10 {
+        height: 30%;
+    }
+    #page-2-row::-webkit-scrollbar {
+        display: none;
+    }
+    #page-2-row {
+        flex-direction: row;
+    }
+    
+    #page-2-row .col-10 {
+        margin: 5vh;
+    }
+    
+    /* footer styling  */
+    .f-left {
+        height: 50%;
+    }
+    .f-left {
+        height: 50%;
+    }
+    
+    .page-3 {
+        height: 60vh;
+    }
+    /* form styling  */
+    #form-row form {
+        height: 70%;
+        width: 95%;
+        background-color: #000;
+        color: var(--secondart-color);
+        margin-left: 3vh;
+    }
+  
+}
